@@ -10,7 +10,8 @@ const assertEqual = function(actual, expected) {
   assertEqual(1, 1);
 
   const tail=function (array){
-    return array.shift();
+    array.shift();
+    return array;
   }
   
 
